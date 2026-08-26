@@ -1,4 +1,3 @@
-import React from "react";
 import { GiGamepad } from "react-icons/gi";
 
 export default function GetStarted() {

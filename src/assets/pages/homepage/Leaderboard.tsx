@@ -1,5 +1,4 @@
 import { FaTrophy } from "react-icons/fa";
-import { GiCrown } from "react-icons/gi";
 
 export default function LeaderBoard() {
   const leaderboardData = [
