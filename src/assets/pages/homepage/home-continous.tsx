@@ -1,4 +1,4 @@
-import { HiMiniUserGroup, HiUserGroup } from "react-icons/hi2";
+import { HiUserGroup } from "react-icons/hi2";
 import { GiGamepad } from "react-icons/gi";
 
 export default function HomeContinous() {
@@ -54,7 +54,7 @@ export default function HomeContinous() {
                   <div className="text-[#657294] font-extrabold">
                     Online{" "}
                     <div className="flex items-center gap-2 text-[#09B600] font-extrabold">
-                      <HiMiniUserGroup size={"30px"} color="#169EFA" />
+                      <HiUserGroup size={"30px"} color="#169EFA" />
                       128
                     </div>
                   </div>
@@ -108,7 +108,7 @@ export default function HomeContinous() {
                   <div className="text-[#657294] font-extrabold">
                     Online{" "}
                     <div className="flex items-center gap-2 text-[#09B600] font-extrabold">
-                      <HiMiniUserGroup size={"30px"} color="#169EFA" />
+                      <HiUserGroup size={"30px"} color="#169EFA" />
                       84
                     </div>
                   </div>
@@ -162,7 +162,7 @@ export default function HomeContinous() {
                     <div className="text-[#657294] font-extrabold">
                       Online{" "}
                       <div className="flex items-center gap-2 text-[#09B600] font-extrabold">
-                        <HiMiniUserGroup size={"30px"} color="#169EFA" />
+                        <HiUserGroup size={"30px"} color="#169EFA" />
                         203
                       </div>
                     </div>
@@ -217,7 +217,7 @@ export default function HomeContinous() {
                     <div className="text-[#657294] font-extrabold">
                       Online{" "}
                       <div className="flex items-center gap-2 text-[#09B600] font-extrabold">
-                        <HiMiniUserGroup size={"30px"} color="#169EFA" />
+                        <HiUserGroup size={"30px"} color="#169EFA" />
                         61
                       </div>
                     </div>
