@@ -6,7 +6,6 @@ import HowtoPage from "./assets/pages/homepage/the-how";
 import LeaderBoard from "./assets/pages/homepage/Leaderboard";
 import StakeToken from "./assets/pages/homepage/stake";
 import GetStarted from "./assets/pages/homepage/get-started";
-import ConnectWallet from "./assets/wallet/wallet";
 
 function App() {
   return (
@@ -18,7 +17,6 @@ function App() {
       <LeaderBoard />
       <StakeToken />
       <GetStarted />
-      <ConnectWallet />
     </>
   );
 }

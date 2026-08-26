@@ -9,10 +9,8 @@ export default function StakeToken() {
 
   return (
     <div className="mt-10 max-w-6xl mx-auto p-6 grid grid-cols-1 lg:grid-cols-2 gap-12 items-center text-white">
-      {/* LEFT COLUMN: Stake Calculator Card */}
       <div className="bg-[#0b0e17] border border-orange-500/30 rounded-3xl p-6 shadow-xl flex flex-col justify-between">
         <div>
-          {/* Card Title */}
           <div className="flex items-center gap-2 mb-1">
             <span className="text-orange-500 text-lg">⬡</span>
             <h3 className="text-xl font-bold">Stake Calculation</h3>
@@ -21,7 +19,6 @@ export default function StakeToken() {
             See your potential reward before you play
           </p>
 
-          {/* Quick Select Buttons */}
           <label className="text-xs text-slate-300 font-medium block mb-2">
             Quick Select (GVT)
           </label>
@@ -42,7 +39,6 @@ export default function StakeToken() {
             ))}
           </div>
 
-          {/* Custom Amount Input */}
           <label className="text-xs text-slate-300 font-medium block mb-2">
             Custom Amount
           </label>
@@ -56,7 +52,6 @@ export default function StakeToken() {
             />
           </div>
 
-          {/* Calculations Summary */}
           <div className="border-t border-slate-800/80 pt-4 space-y-3 text-sm">
             <div className="flex justify-between text-slate-300">
               <span>Your stake</span>
@@ -75,7 +70,6 @@ export default function StakeToken() {
           </div>
         </div>
 
-        {/* Action Button */}
         <button
           type="button"
           className="mt-8 w-full bg-orange-500 hover:bg-orange-600 text-black font-bold py-3.5 rounded-xl flex items-center justify-center gap-2 transition"
@@ -84,7 +78,6 @@ export default function StakeToken() {
         </button>
       </div>
 
-      {/* RIGHT COLUMN: Info Section */}
       <div className="flex flex-col justify-center">
         <span className="text-orange-500 text-xs font-bold tracking-widest uppercase mb-2">
           TOKEN ECONOMIC
@@ -98,7 +91,6 @@ export default function StakeToken() {
           receives both stakes minus a 5% platform fee instantly.
         </p>
 
-        {/* Feature List */}
         <div className="space-y-6">
           <div className="flex items-start gap-4">
             <div className="text-orange-500 text-lg mt-1">🔒</div>

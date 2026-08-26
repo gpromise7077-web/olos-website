@@ -4,7 +4,6 @@ export default function GetStarted() {
   return (
     <footer className="w-full bg-[#05070e] text-white pt-16 pb-8 px-6">
       <div className="max-w-6xl mx-auto">
-        {/* TOP SECTION: Call to Action (CTA) */}
         <div className="text-center max-w-2xl mx-auto mb-20">
           <span className="text-orange-500 text-xs font-bold tracking-widest uppercase block mb-3">
             GET STARTED
@@ -17,7 +16,6 @@ export default function GetStarted() {
             receives both stakes minus a 5% platform fee instantly
           </p>
 
-          {/* CTA Buttons */}
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-6">
             <button className="w-full sm:w-auto bg-orange-500 hover:bg-orange-600 text-black font-bold px-6 py-3 rounded-xl flex items-center justify-center gap-2 transition">
               <GiGamepad className="text-lg" /> Connect & Play
@@ -32,12 +30,9 @@ export default function GetStarted() {
           </p>
         </div>
 
-        {/* HORIZONTAL DIVIDER LINE */}
         <hr className="border-t border-purple-900/40 mb-12" />
 
-        {/* BOTTOM SECTION: Footer Links Grid */}
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-12">
-          {/* Column 1: Brand Info */}
           <div className="space-y-4">
             <h3 className="text-2xl font-extrabold text-cyan-400 tracking-wider">
               OLOS
@@ -46,7 +41,7 @@ export default function GetStarted() {
               Web3 skill gaming, Compete, Stake and earn - your reputation lives
               on-chain
             </p>
-            {/* Social Pill Buttons */}
+
             <div className="flex items-center gap-2 pt-2">
               <span className="text-xs border border-slate-800 bg-slate-900/80 px-3 py-1 rounded-full text-slate-300 cursor-pointer hover:border-slate-700">
                 X
@@ -57,7 +52,6 @@ export default function GetStarted() {
             </div>
           </div>
 
-          {/* Column 2: Games */}
           <div>
             <h4 className="font-bold text-sm text-white mb-4">Games</h4>
             <ul className="space-y-2 text-xs text-slate-400">
@@ -70,7 +64,6 @@ export default function GetStarted() {
             </ul>
           </div>
 
-          {/* Column 3: Platform */}
           <div>
             <h4 className="font-bold text-sm text-white mb-4">Platform</h4>
             <ul className="space-y-2 text-xs text-slate-400">
@@ -85,7 +78,6 @@ export default function GetStarted() {
             </ul>
           </div>
 
-          {/* Column 4: Company */}
           <div>
             <h4 className="font-bold text-sm text-white mb-4">Company</h4>
             <ul className="space-y-2 text-xs text-slate-400">
@@ -99,7 +91,6 @@ export default function GetStarted() {
           </div>
         </div>
 
-        {/* FOOTER BAR: Copyright */}
         <div className="flex flex-col sm:flex-row items-center justify-between text-xs text-slate-500 pt-6 border-t border-slate-900">
           <p>© 2026 OLOS Gaming Platform. All rights reserved</p>
           <p>Powered by GVT Token · EVM Smart Contracts</p>
