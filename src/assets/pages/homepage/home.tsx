@@ -36,7 +36,7 @@ export default function Homepage() {
               <GiGamepad size={"30px"} />
               Start Playing
             </div>
-            <div className="flex items-center gap-2 text-white border-[#169EFA] border-1 rounded-[10px] px-7 py-2">
+            <div className="font-extrabold flex items-center gap-2 text-white border-[#169EFA] border-1 rounded-[10px] px-7 py-2">
               <FaTrophy size={"20px"} color="#f9c12c" />
               Leaderboard
             </div>
