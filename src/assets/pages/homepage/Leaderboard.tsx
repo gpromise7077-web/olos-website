@@ -1,5 +1,3 @@
-import { FaTrophy } from "react-icons/fa";
-
 export default function LeaderBoard() {
   const leaderboardData = [
     {
@@ -48,12 +46,10 @@ export default function LeaderBoard() {
             Climb the ranks and <br /> prove your skill to the world
           </div>
           <div className="font-extrabold flex items-center gap-2 text-white border-[#169EFA] border-1 rounded-[10px] px-7 py-2 w-65 mt-10">
-            <FaTrophy size={"20px"} color="#f9c12c" />
-            View Full Leaderboard
+            🏆 View Full Leaderboard
           </div>
         </div>
         <div className="w-full mt-30 max-w-lg bg-[#070b14] border border-cyan-500/30 rounded-3xl p-6 shadow-2xl text-white ml-20">
-          {/* Header */}
           <div className="flex items-center justify-between mb-8">
             <div className="flex items-center gap-3">
               <span className="text-3xl">🏆</span>
@@ -101,7 +97,7 @@ export default function LeaderBoard() {
           </div>
         </div>
       </div>
-      <hr className="mt-20 border-t border-[#657294] mb-12" />
+      <hr className="ml-15 mt-20 border-[#657294] border-900/40 mb-12 w-[90%]" />
     </>
   );
 }

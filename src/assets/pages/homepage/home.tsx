@@ -1,5 +1,4 @@
 import { GiGamepad } from "react-icons/gi";
-import { FaTrophy } from "react-icons/fa";
 
 export default function Homepage() {
   return (
@@ -37,8 +36,7 @@ export default function Homepage() {
               Start Playing
             </div>
             <div className="font-extrabold flex items-center gap-2 text-white border-[#169EFA] border-1 rounded-[10px] px-7 py-2">
-              <FaTrophy size={"20px"} color="#f9c12c" />
-              Leaderboard
+              🏆 Leaderboard
             </div>
           </div>
           <div className="flex items-center mt-10">

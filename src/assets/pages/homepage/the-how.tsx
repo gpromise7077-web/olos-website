@@ -1,7 +1,6 @@
 import { GiWallet } from "react-icons/gi";
 import { GiGamepad } from "react-icons/gi";
 import { LuHexagon } from "react-icons/lu";
-import { FaTrophy } from "react-icons/fa";
 
 export default function HowtoPage() {
   return (
@@ -63,9 +62,7 @@ export default function HowtoPage() {
           <div className="ml-15 border-[#169EFA] border-1 w-60 rounded-[12px] px-5 py-3">
             <div className="text-white font-extrabold text-3xl">
               04
-              <div className="mt-5">
-                <FaTrophy size={"50px"} />
-              </div>
+              <div className="mt-5">🏆</div>
               <div className="text-white font-extrabold mt-5 text-2xl">
                 Win $ Collect
               </div>
