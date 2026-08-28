@@ -8,6 +8,7 @@ import HowtoPage from "./assets/pages/homepage/the-how";
 import LeaderBoard from "./assets/pages/homepage/Leaderboard";
 import GetStarted from "./assets/pages/homepage/get-started";
 import StakeToken from "./assets/pages/homepage/stake";
+import GameHub from "./profile/gamehub";
 
 function MainLandingPage() {
   return (
@@ -19,6 +20,7 @@ function MainLandingPage() {
       <LeaderBoard />
       <StakeToken />
       <GetStarted />
+      <GameHub />
     </>
   );
 }
@@ -28,6 +30,8 @@ export default function App() {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<MainLandingPage />} />
+
+        <Route path="/gamehub" element={<GameHub />} />
       </Routes>
     </BrowserRouter>
   );
